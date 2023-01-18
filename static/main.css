@@ -1,0 +1,138 @@
+:root{
+    scroll-behavior: smooth;
+    --bg-img:url(/static/img/portadaGoodTrip.jpg);
+    --bg-color:black;
+    --text-color:rgb(255, 253, 127);
+    
+}
+body{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+ .navbar {
+    background-color: transparent;
+}
+
+ .navbar .container-fluid .navbar-brand{
+    color: var(--text-color);
+}
+ .navbar .container-fluid .nav-item .nav-link{
+    color: var(--text-color);
+}
+.portada .navbar .container-fluid  .collapse .d-flex .btn .link{
+    color: var(--text-color);
+}
+.tituloSeccion h1{
+    color: rgb(241, 24, 24);
+}
+.container .textPortada{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:150px;
+    position: relative;
+    
+    
+
+}
+
+.portada{
+    background-image: url(/static/img/Imagen\ de\ WhatsApp\ 2023-01-15\ a\ las\ 17.19.37.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    color: var(--text-color);
+}
+
+.tituloSeccion{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.subTema{
+    color: var(--text-color);
+}
+
+.card-group .card{
+    background-color: black;
+}
+
+.card-group .card .card-body{
+    color: var(--text-color);
+}
+
+.card-group .card .card-body .card-title{
+    text-align: center;
+    color: rgb(241, 18, 18);
+}
+.card-group .card .card-body .btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(218, 214, 25);
+}
+
+.card-group .card .card-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.card-group .card .card-footer .btn{
+   
+    color: var(--text-color);
+}
+
+.containerTarjetas .row .col-md-6 .mt-0 {
+    color: rgb(247, 12, 12);
+}
+
+.containerTarjetas .row .col-md-6 a{
+    color: aqua;
+}
+
+
+.tarjetas{
+    background-color: black;
+    color: var(--text-color);
+}
+.tarjetas .row .col-md-6 .mt-0{
+    text-align: center;
+    margin: 1cm;
+}
+
+.footer .table thead{
+    text-align: center;
+}
+
+
+.portada .navbar .container-fluid .collapse .navbar-nav .d-flex .btn{
+   color: var(--text-color);
+}
+
+.footer .table .thead h1{
+   text-align: center;
+}
+
+.footer{
+    color: var(--text-color);
+    text-align: center;
+}
+.footer .table{
+    color: var(--text-color);
+}
+.footer .table .tbody tr{
+    color: var(--text-color);
+   
+}
+.footer .table .tbody td{
+    color: var(--text-color);
+}
